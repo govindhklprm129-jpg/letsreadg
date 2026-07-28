@@ -1,0 +1,10 @@
+---
+layout: base.njk
+pagination:
+  data: collections.tagsList
+  size: 1
+  alias: tagName
+permalink: "/blog/tags/{{ tagName | slug }}/"
+eleventyExcludeFromCollections: true
+---
+<div class="prose"><p class="breadcrumbs"><a href="/">Home</a> / <a href="/blog/">Blog</a> / #{{ tagName }}</p><h1>Posts tagged “{{ tagName }}”</h1>{% for post in collections.posts | byTag(tagName) %}<article class="card"><p class="meta">{{ post.date | date }} · {{ post.data.category }}</p><h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2><p>{{ post.data.description }}</p></article>{% endfor %}</div>

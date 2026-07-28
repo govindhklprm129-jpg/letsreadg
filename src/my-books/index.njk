@@ -1,0 +1,6 @@
+---
+layout: base.njk
+title: My Books
+description: Books by Your Name for children, young readers, and families who love Indian stories.
+---
+<div class="prose"><p class="breadcrumbs"><a href="/">Home</a> / My Books</p><p class="eyebrow">Stories from my desk</p><h1>My books</h1><p class="lead">Every book is an invitation to imagine, ask questions, and find comfort in a good story.</p><div class="grid">{% for book in collections.books %}<article class="card book-card"><img class="cover" src="{{ book.data.cover }}" alt="Cover of {{ book.data.title }}"><div><p class="meta">Ages {{ book.data.age }} · {{ book.data.themes }}</p><h2>{{ book.data.title }}</h2><p>{{ book.data.summary }}</p><a class="button" href="{{ book.data.amazon }}" rel="nofollow sponsored">Buy on Amazon</a><a class="button alt" href="{{ book.url }}">Learn more</a></div></article>{% endfor %}</div></div>

@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{% if title %}{{ title }} | {% endif %}{{ site.name }}</title>
+  <meta name="description" content="{{ description or site.description }}">
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  <meta property="og:type" content="website"><meta property="og:title" content="{{ title or site.name }}"><meta property="og:description" content="{{ description or site.description }}"><meta property="og:url" content="{{ site.url }}{{ page.url }}"><meta property="og:image" content="{{ socialImage or site.url + '/assets/og-image.svg' }}"><meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="/assets/style.css"><link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"{{ site.author }}","url":"{{ site.url }}","sameAs":["{{ site.instagram }}","{{ site.facebook }}"]}</script>
+</head>
+<body>
+<a class="skip" href="#content">Skip to content</a>
+<header class="site-header"><a class="brand" href="/" aria-label="Let's Read home"><span>❦</span> Let’s Read</a><button class="menu-button" aria-expanded="false" aria-controls="navigation">Menu</button><nav id="navigation" aria-label="Primary navigation"><a href="/">Home</a><a href="/blog/">Blog</a><a href="/book-recommendations/">Book Recommendations</a><a href="/my-books/">My Books</a><a href="/about/">About</a><a href="/contact/">Contact</a></nav></header>
+<main id="content">{{ content | safe }}</main>
+<footer><div><a class="brand" href="/"><span>❦</span> Let’s Read</a><p>Stories, reading, and wonder for growing minds.</p></div><div><strong>Explore</strong><a href="/blog/">Blog</a><a href="/my-books/">My Books</a><a href="/book-recommendations/">Recommendations</a><a href="/sitemap.xml">Sitemap</a></div><div><strong>Stay in touch</strong><a href="{{ site.instagram }}">Instagram</a><a href="{{ site.facebook }}">Facebook</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a></div><p class="copyright">© {{ "now" | date("yyyy") }} {{ site.author }}. Made with care.</p></footer>
+<script src="/assets/main.js" defer></script>
+</body></html>

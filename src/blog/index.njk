@@ -1,0 +1,6 @@
+---
+layout: base.njk
+title: Book Blog
+description: Book reviews, reading ideas, parenting tips, and Indian mythology for curious families.
+---
+<div class="prose"><p class="breadcrumbs"><a href="/">Home</a> / Blog</p><p class="eyebrow">Weekly reading inspiration</p><h1>The Let’s Read Blog</h1><p class="lead">Reviews, reading activities, author notes, and practical guides for young readers and the adults who cheer them on.</p><input class="search" data-search aria-label="Search articles" placeholder="Search these articles"><div class="category-list">{% for post in collections.posts %}<a class="pill" href="/blog/categories/{{ post.data.category | slug }}/">{{ post.data.category }}</a>{% endfor %}</div>{% for post in collections.posts %}<article class="card" data-search-item style="margin-bottom:1.2rem"><p class="meta">{{ post.date | date }} · {{ post.data.category }}</p><h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2><p>{{ post.data.description }}</p><p class="tags">{% for tag in post.data.tags %}<a href="/blog/tags/{{ tag | slug }}/">#{{ tag }}</a>{% endfor %}</p><a href="{{ post.url }}">Read article →</a></article>{% endfor %}</div>
