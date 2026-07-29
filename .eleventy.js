@@ -1,6 +1,9 @@
 const { DateTime } = require("luxon");
 
 module.exports = function (eleventyConfig) {
+    eleventyConfig.addFilter("limit", (items, count) => {
+    return Array.isArray(items) ? items.slice(0, count) : [];
+  });
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
   eleventyConfig.addPassthroughCopy({ "src/admin": "admin" });
   eleventyConfig.addPassthroughCopy({ "src/robots.txt": "robots.txt" });
