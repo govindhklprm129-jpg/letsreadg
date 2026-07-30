@@ -6,7 +6,7 @@ author: Your Name
 category: Indian Mythology
 tags: [Indian mythology, family reading, stories]
 description: How to share mythological stories with curiosity, context, and a child’s sense of wonder.
-image: /assets/author.svg
+image: /assets/author.jpg
 imageAlt: Illustrated open book with a soft leafy background
 ---
 Indian mythology carries remarkable characters, questions, and images. For young readers, the best beginning is often a story rather than a lesson.

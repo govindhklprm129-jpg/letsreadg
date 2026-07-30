@@ -6,7 +6,7 @@ author: Your Name
 category: Parenting Reading Tips
 tags: [parents, reading habits, beginner readers]
 description: Five small, realistic ways to make room for books in a full family week.
-image: /assets/author.svg
+image: /assets/author.jpg
 imageAlt: A warm illustrated reading corner with books and a quiet window
 ---
 Reading does not need a perfect corner, a long list, or an hour of silence. A small, repeatable moment is enough to help a child connect books with comfort.

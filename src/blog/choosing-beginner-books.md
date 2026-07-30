@@ -6,7 +6,7 @@ author: Your Name
 category: Educational Guides
 tags: [beginner readers, book recommendations, learning]
 description: A simple checklist for choosing books that help new readers feel capable and excited.
-image: /assets/author.svg
+image: /assets/author.jpg
 imageAlt: Illustrated stack of children's books ready to be read
 ---
 A beginner reader needs books that feel possible—and interesting enough to return to tomorrow.
