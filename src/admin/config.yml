@@ -16,7 +16,7 @@ collections:
       - {label: "Author", name: "author", widget: "string", default: "Your Name"}
       - {label: "Category", name: "category", widget: "select", options: ["Book Reviews", "Parenting Reading Tips", "Reading Activities", "Author Stories", "Educational Guides", "Indian Mythology"]}
       - {label: "Tags", name: "tags", widget: "list"}
-      - {label: "Short SEO description", name: "description", widget: "text"}
+      - {label: "Short SEO description", name: "description", widget: "markdown"}
       - {label: "Featured image", name: "image", widget: "image"}
       - {label: "Image alt text", name: "imageAlt", widget: "string"}
       - {label: "Article", name: "body", widget: "markdown"}
@@ -27,7 +27,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Short summary", name: "summary", widget: "text"}
+      - {label: "Short summary", name: "summary", widget: "markdown"}
       - {label: "Age group", name: "age", widget: "string"}
       - {label: "Minimum age", name: "ageMin", widget: "number", default: 5}
       - {label: "Maximum age", name: "ageMax", widget: "number", default: 12}
@@ -45,7 +45,7 @@ collections:
       - {label: "Author", name: "author", widget: "string"}
       - {label: "Age suitability", name: "age", widget: "string"}
       - {label: "Section", name: "audience", widget: "select", options: ["For Younger Readers", "For Teens", "Indian Mythology", "Beginner Readers", "For Parents"]}
-      - {label: "Description", name: "description", widget: "text"}
-      - {label: "Why recommended", name: "why", widget: "text"}
+      - {label: "Description", name: "description", widget: "markdown"}
+      - {label: "Why recommended", name: "why", widget: "markdown"}
       - {label: "Cover", name: "cover", widget: "image"}
       - {label: "Purchase/review link", name: "link", widget: "string"}
