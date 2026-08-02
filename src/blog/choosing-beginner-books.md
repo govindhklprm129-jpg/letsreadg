@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-title: How To Choose Book for a Beginner Who Doesn't Like Reading
+title: "How To Choose Book: For a Beginner Who Doesn't Like Reading"
 date: 2026-08-01T02:28:00.000+05:30
 author: "Govindh "
 category: Educational Guides
