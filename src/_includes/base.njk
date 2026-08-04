@@ -5,14 +5,14 @@
   <title>{% if title %}{{ title }} | {% endif %}{{ site.name }}</title>
   <meta name="description" content="{{ description or site.description }}">
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
-  <meta property="og:type" content="website"><meta property="og:title" content="{{ title or site.name }}"><meta property="og:description" content="{{ description or site.description }}"><meta property="og:url" content="{{ site.url }}{{ page.url }}"><meta property="og:image" content="{{ socialImage or site.url + '/assets/logo-featherpen-f.jpeg' }}"><meta name="twitter:card" content="summary_large_image">
+  <meta property="og:type" content="website"><meta property="og:title" content="{{ title or site.name }}"><meta property="og:description" content="{{ description or site.description }}"><meta property="og:url" content="{{ site.url }}{{ page.url }}"><meta property="og:image" content="{{ socialImage or site.url + '/assets/logo-design.jpg' }}"><meta name="twitter:card" content="summary_large_image">
   <link rel="stylesheet" href="/assets/style.css"><link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"{{ site.author }}","url":"{{ site.url }}","sameAs":["{{ site.instagram }}","{{ site.facebook }}"]}</script>
   <meta name="google-site-verification" content="Xz0uh9K3PQHC2v8h74PUQi2OlHWPwy89eLcMN1CcKF4" />
 </head>
 <body>
 <a class="skip" href="#content">Skip to content</a>
-<header class="site-header"><a class="brand" href="/" aria-label="The Feather Pen home"><img class="brand-logo" src="/assets/logo-featherpen-f.jpeg" alt="The Feather Pen logo"></a><button class="menu-button" aria-expanded="false" aria-controls="navigation">Menu</button><nav id="navigation" aria-label="Primary navigation"><a href="/">Home</a><a href="/blog/">Blog</a><a href="/book-recommendations/">Book Recommendations</a><a href="/my-books/">My Books</a><a href="/about/">About</a><a href="/contact/">Contact</a></nav></header>
+<header class="site-header"><a class="brand" href="/" aria-label="The Feather Pen home"><img class="brand-logo" src="/assets/logo-design.jpg" alt="The Feather Pen logo"></a><button class="menu-button" aria-expanded="false" aria-controls="navigation">Menu</button><nav id="navigation" aria-label="Primary navigation"><a href="/">Home</a><a href="/blog/">Blog</a><a href="/book-recommendations/">Book Recommendations</a><a href="/my-books/">My Books</a><a href="/about/">About</a><a href="/contact/">Contact</a></nav></header>
 <main id="content">{{ content | safe }}</main>
 <footer><div><a class="brand" href="/"><span>❦</span> The Feather Pen</a><p>Stories, reading, and wonder for growing minds.</p></div><div><strong>Explore</strong><a href="/blog/">Blog</a><a href="/my-books/">My Books</a><a href="/book-recommendations/">Recommendations</a></div><div><strong>Stay in touch</strong><a href="{{ site.instagram }}">Instagram</a><a href="{{ site.facebook }}">Facebook</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a></div><p class="copyright">© {{ "now" | date("yyyy") }} {{ site.author }}. Made with care.</p></footer>
 <script src="/assets/main.js" defer></script>
