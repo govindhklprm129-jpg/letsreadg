@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://letsreadg.netlify.app/</loc>
+    <loc>https://featherpen.netlify.app/</loc>
   </url>
   <url>
-    <loc>https://letsreadg.netlify.app/blog/</loc>
+    <loc>https://featherpen.netlify.app/blog/</loc>
   </url>
   <url>
-    <loc>https://letsreadg.netlify.app/my-books/</loc>
+    <loc>https://featherpen.netlify.app/my-books/</loc>
   </url>
   <url>
-    <loc>https://letsreadg.netlify.app/book-recommendations/</loc>
+    <loc>https://featherpen.netlify.app/book-recommendations/</loc>
   </url>
   <url>
-    <loc>https://letsreadg.netlify.app/about/</loc>
+    <loc>https://featherpen.netlify.app/about/</loc>
   </url>
   <url>
-    <loc>https://letsreadg.netlify.app/contact/</loc>
+    <loc>https://featherpen.netlify.app/contact/</loc>
   </url>
   <url>
-    <loc>https://letsreadg.netlify.app/privacy/</loc>
+    <loc>https://featherpen.netlify.app/privacy/</loc>
   </url>
   <url>
-    <loc>https://letsreadg.netlify.app/terms/</loc>
+    <loc>https://featherpen.netlify.app/terms/</loc>
   </url>
 </urlset>
 
