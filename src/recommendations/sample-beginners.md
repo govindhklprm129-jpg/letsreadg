@@ -15,19 +15,19 @@ why: >-
   ### 1. Structure & Flow (the “plot” of the book)
 
 
-  * **Preface & Introduction**  Nietzsche opens by criticizing dogmatic philosophy and the blind pursuit of “truth” without questioning its value.
+  * **Preface & Introduction**: Nietzsche opens by criticizing dogmatic philosophy and the blind pursuit of “truth” without questioning its value.
 
-  * **Part I – Critique of Philosophers**  He argues that past philosophers were driven more by hidden instincts and personal motives than by pure reason.
+  * **Part I – Critique of Philosophers :**He argues that past philosophers were driven more by hidden instincts and personal motives than by pure reason.
 
-  * **Part II – Free Spirit & Morality**  Introduces the idea of *master vs. slave morality*, showing how values arise from power dynamics rather than universal truths.
+  * **Part II – Free Spirit & Morality** Introduces the idea of *master vs. slave morality*, showing how values arise from power dynamics rather than universal truths.
 
-  * **Part III – Religion & Culture**  Examines Christianity and other traditions as systems that suppress individuality and enforce herd mentality.
+  * **Part III – Religion & Culture :**Examines Christianity and other traditions as systems that suppress individuality and enforce herd mentality.
 
-  * **Part IV – Will to Power**  Presents his central concept: human behavior and morality are rooted in the drive for power, not abstract ideals.
+  * **Part IV – Will to Power** : Presents his central concept: human behavior and morality are rooted in the drive for power, not abstract ideals.
 
-  * **Part V – Truth & Perspectivism**  Challenges the notion of objective truth, suggesting that all knowledge is shaped by perspective.
+  * **Part V – Truth & Perspectivism**: Challenges the notion of objective truth, suggesting that all knowledge is shaped by perspective.
 
-  * **Closing Sections**  Nietzsche calls for new philosophers who embrace creativity, risk, and the courage to overturn old values.
+  * **Closing Sections:** Nietzsche calls for new philosophers who embrace creativity, risk, and the courage to overturn old values.
 
 
   ### 2. Key Themes & Takeaways
