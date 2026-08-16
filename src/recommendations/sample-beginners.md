@@ -1,5 +1,5 @@
 ---
-title: UNDERRATED BOOKS
+title: Underrated books
 author: Friedrich Nietzsche
 age: 18 & Above
 audience: For Younger Readers
