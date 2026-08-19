@@ -11,7 +11,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("date", (date, format = "d LLLL yyyy") => DateTime.fromJSDate(date === "now" ? new Date() : new Date(date)).toFormat(format));
   eleventyConfig.addFilter("slug", (text) => String(text).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, ""));
   eleventyConfig.addCollection("posts", (api) => api.getFilteredByGlob("src/blog/*.md").reverse());
-  eleventyConfig.addCollection("books", (api) => api.getFilteredByGlob("src/my-books/*.md"));
+  eleventyConfig.addCollection("books", () => []);
   eleventyConfig.addCollection("recommendations", (api) => api.getFilteredByGlob("src/recommendations/*.md"));
   eleventyConfig.addCollection("categories", (api) => [...new Set(api.getFilteredByGlob("src/blog/*.md").map(p => p.data.category).filter(Boolean))]);
   eleventyConfig.addCollection("tagsList", (api) => [...new Set(api.getFilteredByGlob("src/blog/*.md").flatMap(p => p.data.tags || []))]);

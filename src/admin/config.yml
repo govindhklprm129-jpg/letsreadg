@@ -20,21 +20,6 @@ collections:
       - {label: "Featured image", name: "image", widget: "image"}
       - {label: "Image alt text", name: "imageAlt", widget: "string"}
       - {label: "Article", name: "body", widget: "markdown"}
-  - name: "books"
-    label: "My books"
-    folder: "src/my-books"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Short summary", name: "summary", widget: "markdown"}
-      - {label: "Age group", name: "age", widget: "string"}
-      - {label: "Minimum age", name: "ageMin", widget: "number", default: 5}
-      - {label: "Maximum age", name: "ageMax", widget: "number", default: 12}
-      - {label: "Themes", name: "themes", widget: "string"}
-      - {label: "Cover", name: "cover", widget: "image"}
-      - {label: "Amazon URL", name: "amazon", widget: "string"}
-      - {label: "Book description/excerpt", name: "body", widget: "markdown"}
   - name: "recommendations"
     label: "Book recommendations"
     folder: "src/recommendations"

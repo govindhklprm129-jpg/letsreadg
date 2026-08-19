@@ -1,5 +1,5 @@
 ---
 layout: base.njk
-permalink: "/my-books/{{ title | slug }}/"
+permalink: false
 ---
 <article class="prose"><p class="breadcrumbs"><a href="/">Home</a> / <a href="/my-books/">My Books</a> / {{ title }}</p><img class="cover" src="{{ cover }}" alt="Cover of {{ title }}"><p class="eyebrow">For ages {{ age }}</p><h1>{{ title }}</h1><p class="lead">{{ summary }}</p><p><strong>Themes:</strong> {{ themes }}</p>{{ content | safe }}<a class="button" href="{{ amazon }}" rel="nofollow sponsored">Buy on Amazon</a><h2>Reader reviews</h2><p>Add a moderated Giscus comment box here after completing the steps in the README.</p></article><script type="application/ld+json">{"@context":"https://schema.org","@type":"Book","name":"{{ title }}","author":{"@type":"Person","name":"{{ site.author }}"},"description":"{{ summary }}","audience":{"@type":"PeopleAudience","suggestedMinAge":{{ ageMin or 5 }},"suggestedMaxAge":{{ ageMax or 12 }}},"url":"{{ site.url }}{{ page.url }}","image":"{{ site.url }}{{ cover }}"}</script>
