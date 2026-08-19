@@ -265,7 +265,7 @@ why: >-
   You don't need to become the most charming person in your school.
 
 
-  You don't need everyone to like you.
+  You don't need everyone to like you. 
 
 
   And you certainly shouldn't change your personality just to win approval.
@@ -308,9 +308,9 @@ permalink: /recommendations/books-mythology/
 title: "How to Win Friends and Influence People: A Practical Guide to Better
   Relationships"
 age: Ages 12+
-description: I recommend it because its lessons about listening, empathy, and
-  building genuine relationships remain useful for young readers navigating
-  friendships, careers, and modern digital life.
+description: A timeless guide to turning conversations into connections and
+  influence into inspiration — Dale Carnegie’s classic shows you how to win
+  hearts, not just arguments.”
 cover: https://m.media-amazon.com/images/I/618XGVFYlwL._AC_UY327_FMwebp_QL65_.jpg
 link: https://amzn.in/d/0fIbVPZq
 ---
