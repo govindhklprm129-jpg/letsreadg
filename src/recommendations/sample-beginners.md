@@ -10,6 +10,11 @@ cover: https://m.media-amazon.com/images/I/71XkesoPH3L._SY522_.jpg
 link: https://amzn.in/d/0bZlAfGN
 ---
 
+<img
+  class="recommendation-book-cover"
+  src="{{ cover }}"
+  alt="Cover of {{ title }}"
+>
 <h2>Why Read <em>Beyond Good and Evil</em>?</h2>
 
 <p>
