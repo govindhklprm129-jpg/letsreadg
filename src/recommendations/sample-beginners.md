@@ -6,15 +6,11 @@ age: 18 & Above
 audience: Beginner Readers
 description: "A challenging exploration of morality, truth, human nature, and the assumptions behind our beliefs."
 why: "I recommend it for readers who enjoy philosophy and want to question conventional ideas rather than simply accept them."
-cover: https://m.media-amazon.com/images/I/71XkesoPH3L._SY522_.jpg
-link: https://amzn.in/d/0bZlAfGN
+cover: "https://m.media-amazon.com/images/I/71XkesoPH3L._SY522_.jpg"
+link: "https://amzn.in/d/0bZlAfGN"
 ---
 
-<img
-  class="recommendation-book-cover"
-  src="https://m.media-amazon.com/images/I/71XkesoPH3L._SY522_.jpg"
-  alt="Cover of Beyond Good and Evil by Friedrich Nietzsche"
->
+![Cover of {{ title }}]({{ cover }})
 
 <h2>Why Read <em>Beyond Good and Evil</em>?</h2>
 
