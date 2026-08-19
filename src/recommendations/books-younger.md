@@ -1,5 +1,6 @@
 ---
 layout: base.njk
+permalink: "/recommendations/books-younger/"
 title: A Beautiful Picture Book
 author: Sample Author
 age: Ages 4–7

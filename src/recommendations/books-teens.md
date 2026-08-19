@@ -1,5 +1,6 @@
 ---
 layout: base.njk
+permalink: "/recommendations/books-teens/"
 title: A Thoughtful Teen Novel
 author: Sample Author
 age: Ages 13–18
