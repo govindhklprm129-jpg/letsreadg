@@ -134,3 +134,25 @@
   }
 
 }
+/* Full book recommendation pages */
+
+.recommendation-book-cover {
+  display: block;
+  width: 220px;
+  max-width: 70%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  border-radius: 5px;
+  margin: 1.5rem 0 2rem;
+}
+
+.book-page-meta {
+  color: var(--muted);
+  font-size: .9rem;
+}
+
+@media (max-width: 520px) {
+  .recommendation-book-cover {
+    width: 180px;
+  }
+}
