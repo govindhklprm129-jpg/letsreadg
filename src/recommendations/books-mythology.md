@@ -7,7 +7,7 @@ age: Ages 12+
 audience: For Teens
 why: "I recommend it because its lessons about listening, empathy, and building genuine relationships remain useful for young readers navigating friendships, careers, and modern digital life."
 cover: "https://m.media-amazon.com/images/I/618XGVFYlwL._AC_UY327_FMwebp_QL65_.jpg"
-link: "https://featherpen.netlify.app/recommendations/sample-mythology/"
+link: "https://featherpen.netlify.app/recommendations/books-mythology/"
 ---
 
 ![Cover of {{ title }}]({{ cover }})
