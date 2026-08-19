@@ -18,75 +18,69 @@ description: Carefully chosen books for younger readers, teens, mythology lovers
     A growing collection of books I would gladly place in a young reader’s hands.
   </p>
 
-  {% set groups = [
-    'For Younger Readers',
-    'For Teens',
-    'Indian Mythology',
-    'Beginner Readers',
-    'For Parents'
-  ] %}
+  {% set groups = ['For Younger Readers','For Teens','Indian Mythology','Beginner Readers','For Parents'] %}
 
   {% for group in groups %}
 
-    {% set groupBooks = collections.recommendations | selectattr("data.audience", "equalto", group) | list %}
+    <h2>{{ group }}</h2>
 
-    {% if groupBooks.length > 0 %}
+    <div class="grid">
 
-      <section class="recommendation-section">
+      {% for item in collections.recommendations %}
 
-        <h2>{{ group }}</h2>
+        {% if item.data.audience == group %}
 
-        <div class="recommendations-grid">
+          <article class="card book-card">
 
-          {% for item in groupBooks %}
+            <a href="{{ item.url }}">
+              <img
+                class="cover"
+                src="{{ item.data.cover }}"
+                alt="Cover of {{ item.data.title }}"
+                loading="lazy"
+              >
+            </a>
 
-            <article class="book-card">
+            <div>
 
-              <a class="book-cover-link" href="{{ item.url }}">
-                <img
-                  class="book-cover"
-                  src="{{ item.data.cover }}"
-                  alt="Cover of {{ item.data.title }}"
-                  loading="lazy"
-                >
+              <p class="meta">
+                {{ item.data.author }} · {{ item.data.age }}
+              </p>
+
+              <h3>
+                <a href="{{ item.url }}">
+                  {{ item.data.title }}
+                </a>
+              </h3>
+
+              <p>
+                {{ item.data.description }}
+              </p>
+
+              <p>
+                <strong>Why I recommend it:</strong>
+                {{ item.data.why }}
+              </p>
+
+              <a href="{{ item.url }}">
+                Read full recommendation →
               </a>
 
-              <div class="book-card-content">
-
-                <p class="meta">
-                  {{ item.data.author }} · {{ item.data.age }}
-                </p>
-
-                <h3>
-                  <a href="{{ item.url }}">
-                    {{ item.data.title }}
-                  </a>
-                </h3>
-
-                <p class="book-description">
-                  {{ item.data.description }}
-                </p>
-
-                <p class="book-why">
-                  <strong>Why I recommend it:</strong>
-                  {{ item.data.why }}
-                </p>
-
-                <a class="read-recommendation" href="{{ item.url }}">
-                  Read full recommendation →
+              {% if item.data.link %}
+                <a href="{{ item.data.link }}" rel="nofollow sponsored">
+                  View book →
                 </a>
+              {% endif %}
 
-              </div>
+            </div>
 
-            </article>
+          </article>
 
-          {% endfor %}
+        {% endif %}
 
-        </div>
+      {% endfor %}
 
-      </section>
-
-    {% endif %}
+    </div>
 
   {% endfor %}
 
