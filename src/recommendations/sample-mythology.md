@@ -1,10 +1,11 @@
 ---
 layout: base.njk
 title: "How to Win Friends and Influence People: A Practical Guide to Better Relationships"
-description: "A thoughtful look at Dale Carnegie's classic guide to communication, empathy, listening, and meaningful human connection."
+description: "A thoughtful guide to communication, empathy, listening, and meaningful human connection."
 author: Dale Carnegie
 age: Ages 12+
 audience: For Teens
+why: "I recommend it because its lessons about listening, empathy, and building genuine relationships remain useful for young readers navigating friendships, careers, and modern digital life."
 cover: https://m.media-amazon.com/images/I/618XGVFYlwL._AC_UY327_FMwebp_QL65_.jpg
 link: https://www.amazon.in/sspa/click?ie=UTF8&spc=MTozNTE3Mzg4OTA2MDUzODU2OjE3ODY5ODg2NDk6c3BfYXRmOjIwMDg2NzY3OTg2MjA0OjowOjo&url=%2FHow-Win-Friends-Influence-People%2Fdp%2F8194790891%2Fref%3Dsr_1_2_sspa%3Fadgrpid%3D1315017513108978%26dib%3DeyJ2IjoiMSJ9.XiPAiCpp2uSvRxCvfZO7bhZHs4hHYrb0JtXLxWvo-vrny0pAobT5MF2swrKTm1D6xNN8deCbzr9FpCEL2U9qU-uPdSnaqFuj3ekdxsWPkhSWhS_H5nM_wkgGcCyg
 ---
