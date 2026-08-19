@@ -1,14 +1,18 @@
 ---
-layout: base.njk
-permalink: "/recommendations/books-mythology/"
-title: "How to Win Friends and Influence People: A Practical Guide to Better Relationships"
-description: "A thoughtful look at Dale Carnegie's classic guide to communication, empathy, listening, and meaningful human connection."
 author: Dale Carnegie
-age: Ages 12+
 audience: For Teens
-why: "I recommend it because its lessons about listening, empathy, and building genuine relationships remain useful for young readers navigating friendships, careers, and modern digital life."
-cover: "https://m.media-amazon.com/images/I/618XGVFYlwL._AC_UY327_FMwebp_QL65_.jpg"
-link: "https://featherpen.netlify.app/recommendations/books-mythology/"
+why: I recommend it because its lessons about listening, empathy, and building
+  genuine relationships remain useful for young readers navigating friendships,
+  careers, and modern digital life.
+layout: base.njk
+permalink: /recommendations/books-mythology/
+title: "How to Win Friends and Influence People: A Practical Guide to Better
+  Relationships"
+age: Ages 12+
+description: A thoughtful look at Dale Carnegie's classic guide to
+  communication, empathy, listening, and meaningful human connection.
+cover: https://m.media-amazon.com/images/I/618XGVFYlwL._AC_UY327_FMwebp_QL65_.jpg
+link: https://amzn.in/d/0fIbVPZq
 ---
 
 ![Cover of {{ title }}]({{ cover }})
