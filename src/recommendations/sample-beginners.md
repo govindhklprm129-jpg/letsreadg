@@ -1,5 +1,8 @@
 ---
-title: Beyond Good and Evil by Nietzsche – Timeless Guide for Bold Thinkers
+layout: base.njk
+title: "Beyond Good and Evil by Friedrich Nietzsche"
+...
+---
 author: Friedrich Nietzsche
 age: 18 & Above
 audience: For Younger Readers

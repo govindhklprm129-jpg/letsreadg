@@ -1,4 +1,5 @@
 ---
+layout: base.njk
 title: A Beautiful Picture Book
 author: Sample Author
 age: Ages 4–7

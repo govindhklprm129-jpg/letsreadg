@@ -1,4 +1,5 @@
 ---
+layout: base.njk
 title: Raising Readers Together
 author: Sample Author
 age: For adults

@@ -1,4 +1,5 @@
 ---
+layout: base.njk
 title: A Thoughtful Teen Novel
 author: Sample Author
 age: Ages 13–18
