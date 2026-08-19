@@ -1,5 +1,6 @@
 ---
 layout: base.njk
+permalink: "/recommendations/books-beginners/"
 title: "Beyond Good and Evil by Friedrich Nietzsche"
 author: Friedrich Nietzsche
 age: 18 & Above

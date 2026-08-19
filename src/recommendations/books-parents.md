@@ -1,5 +1,6 @@
 ---
 layout: base.njk
+permalink: "/recommendations/books-parents/"
 title: Raising Readers Together
 author: Sample Author
 age: For adults

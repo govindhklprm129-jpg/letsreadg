@@ -1,5 +1,6 @@
 ---
 layout: base.njk
+permalink: "/recommendations/books-mythology/"
 title: "How to Win Friends and Influence People: A Practical Guide to Better Relationships"
 description: "A thoughtful look at Dale Carnegie's classic guide to communication, empathy, listening, and meaningful human connection."
 author: Dale Carnegie
