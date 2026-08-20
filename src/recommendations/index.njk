@@ -1,0 +1,88 @@
+---
+layout: base.njk
+title: Book Recommendations
+description: Carefully chosen books for younger readers, teens, mythology lovers, beginners, and parents.
+permalink: "/recommendations/"
+---
+
+<div class="prose recommendations-page">
+
+  <p class="breadcrumbs">
+    <a href="/">Home</a> / Book Recommendations
+  </p>
+
+  <p class="eyebrow">A friendly bookshelf</p>
+
+  <h1>Book recommendations</h1>
+
+  <p class="lead">
+    A growing collection of books I would gladly place in a young reader’s hands.
+  </p>
+
+  {% set groups = ['For Younger Readers','For Teens','Indian Mythology','Beginner Readers','For Parents'] %}
+
+  {% for group in groups %}
+
+    <h2>{{ group }}</h2>
+
+    <div class="grid">
+
+      {% for item in collections.recommendations %}
+
+        {% if item.data.audience == group %}
+
+          <article class="card book-card">
+
+            <a href="{{ item.url }}">
+              <img
+                class="cover"
+                src="{{ item.data.cover }}"
+                alt="Cover of {{ item.data.title }}"
+                loading="lazy"
+              >
+            </a>
+
+            <div>
+
+              <p class="meta">
+                {{ item.data.author }} · {{ item.data.age }}
+              </p>
+
+              <h3>
+                <a href="{{ item.url }}">
+                  {{ item.data.title }}
+                </a>
+              </h3>
+
+              <p>
+                {{ item.data.description }}
+              </p>
+
+              <p>
+                <strong>Why I recommend it:</strong>
+                {{ item.data.why }}
+              </p>
+
+              <a href="{{ item.url }}">
+                Read full recommendation →
+              </a>
+
+              {% if item.data.link %}
+                <a href="{{ item.data.link }}" rel="nofollow sponsored">
+                  View book →
+                </a>
+              {% endif %}
+
+            </div>
+
+          </article>
+
+        {% endif %}
+
+      {% endfor %}
+
+    </div>
+
+  {% endfor %}
+
+</div>
