@@ -8,10 +8,12 @@ description: Discover children’s books, Indian mythology, and simple ways to b
 <section class="section"><div class="section-head"><div><p class="eyebrow">Find the right next read</p><h2>Books worth sharing</h2></div><a href="/book-recommendations/">Browse recommendations →</a></div>
 <div class="grid recommendations-grid">{% for item in collections.recommendations | limit(3) %}
 <article class="card book-card">
-  <img class="cover" src="{{ item.data.cover }}" alt="Cover of {{ item.data.title }}">
+  <a href="{{ item.url }}" aria-label="Read the full recommendation for {{ item.data.title }}">
+    <img class="cover" src="{{ item.data.cover }}" alt="Cover of {{ item.data.title }}">
+  </a>
   <div>
     <p class="meta">{{ item.data.audience }}</p>
-    <h3>{{ item.data.title }}</h3>
+    <h3><a href="{{ item.url }}">{{ item.data.title }}</a></h3>
     <a href="{{ item.url }}">Read the full recommendation →</a>
   </div>
 </article>{% endfor %}</div></section>
